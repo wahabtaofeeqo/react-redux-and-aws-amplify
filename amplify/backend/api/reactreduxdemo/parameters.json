@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "reactreduxdemo",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authreactreduxdemo21ff3703",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
